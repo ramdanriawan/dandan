@@ -1107,13 +1107,9 @@ class DB
 }
 
 $db = new DB('localhost', 'root', '', 'databases_2020_2021_putra_pengolahan_data_rehabilitas');
+print_r($db->data_admin->select('id', 'nomor'));
 
-echo $data_admin->each(function($key, $value, $loop, $loopStep) {
-    
-    return $loop;
-});
-
-// return $query->all()
+// return $query->select()
 
 // foreach($db->data_pemesanan() as $data_pemesanan) 
 // {

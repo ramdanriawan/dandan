@@ -1107,11 +1107,7 @@ class DB
 }
 
 $db = new DB('localhost', 'root', '', 'databases_2020_2021_putra_pengolahan_data_rehabilitas');
-
-echo $data_admin->each(function($key, $value, $loop, $loopStep) {
-    
-    return $loop;
-});
+print_r($db->data_admin->where('nilai', 'where')->where('id', 5)->get()->remove('nama'));
 
 // return $query->all()
 

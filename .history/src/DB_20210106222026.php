@@ -1108,9 +1108,8 @@ class DB
 
 $db = new DB('localhost', 'root', '', 'databases_2020_2021_putra_pengolahan_data_rehabilitas');
 
-echo $data_admin->each(function($key, $value, $loop, $loopStep) {
-    
-    return $loop;
+$db->data_admin->each(function($keys, $value, $loop, $loopStep) {
+    $loop;
 });
 
 // return $query->all()
