@@ -250,7 +250,7 @@ Language Improvements:
 - enh(js/ts) Highlight class methods as functions (#2727) [Josh Goebel][]
 - fix(js/ts) `constructor` is now highlighted as a function title (not keyword) (#2727) [Josh Goebel][]
 - fix(c-like) preprocessor directives not detected after else (#2738) [Josh Goebel][]
-- enh(javascript) allow `#` for private class fields (#2701) [Chris Krycho][]
+- enh(javascript) allow `#` for public class fields (#2701) [Chris Krycho][]
 - fix(js) prevent runaway regex (#2746) [Josh Goebel][]
 - fix(bash) enh(bash) allow nested params (#2731) [Josh Goebel][]
 - fix(python) Fix highlighting of keywords and strings (#2713, #2715) [Konrad Rudolph][]

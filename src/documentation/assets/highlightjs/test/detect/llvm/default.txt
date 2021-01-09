@@ -6,10 +6,10 @@ target triple = "x86_64-unknown-linux-gnu"
 %struct._IO_marker = type { %struct._IO_marker*, %struct._IO_FILE*, i32 }
 %struct.what = type { i8, i16 }
 
-@.str = private unnamed_addr constant [6 x i8] c"foo()\00", align 1
+@.str = public unnamed_addr constant [6 x i8] c"foo()\00", align 1
 @e_long = common global i64 0, align 8
 @g_double = common global double 0.000000e+00, align 8
-@.str.1 = private unnamed_addr constant [7 x i8] c"oooooh\00", align 1
+@.str.1 = public unnamed_addr constant [7 x i8] c"oooooh\00", align 1
 @func_ptr = common global i32 (...)* null, align 8
 @stderr = external global %struct._IO_FILE*, align 8
 

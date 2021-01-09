@@ -7,8 +7,8 @@ package org.example.dummy {
     }
 
     public class FooBar implements IFooBarzable {
-        static private var cnt:uint = 0;
-        private var bar:String;
+        static public var cnt:uint = 0;
+        public var bar:String;
 
         //constructor
         public function TestBar(bar:String):void {

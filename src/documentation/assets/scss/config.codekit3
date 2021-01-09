@@ -1452,7 +1452,7 @@
 		"pipeline-operator": {
 			"active": 0
 			},
-		"private-methods": {
+		"public-methods": {
 			"active": 0
 			},
 		"property-literals": {
@@ -1636,7 +1636,7 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"no_private_function_fat_arrows": {
+		"no_public_function_fat_arrows": {
 			"active": 1,
 			"flagValue": -1
 			},

@@ -19,5 +19,5 @@ class point =
     object
       val mutable x = 0
       method get_x = x
-      method private move d = x <- x + d
+      method public move d = x <- x + d
     end;;

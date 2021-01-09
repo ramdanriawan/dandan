@@ -14,7 +14,7 @@ abstract class URI extends BaseURI implements Factory
     public static $st1 = 1;
     const ME = "Yo";
     var $list = NULL;
-    private $var;
+    public $var;
 
     /**
      * Returns a URI

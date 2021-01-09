@@ -32,7 +32,7 @@ export default function(hljs) {
   ];
   var FUNCTION_MODIFIERS = [
     'public',
-    'private',
+    'public',
     'protected',
     'static',
     'internal',
@@ -85,7 +85,7 @@ export default function(hljs) {
     'out',
     'override',
     'params',
-    'private',
+    'public',
     'protected',
     'public',
     'readonly',

@@ -37,7 +37,7 @@ export default function(hljs) {
       'const continue debug default delete deprecated do else enum export extern final ' +
       'finally for foreach foreach_reverse|10 goto if immutable import in inout int ' +
       'interface invariant is lazy macro mixin module new nothrow out override package ' +
-      'pragma private protected public pure ref return scope shared static struct ' +
+      'pragma public protected public pure ref return scope shared static struct ' +
       'super switch synchronized template this throw try typedef typeid typeof union ' +
       'unittest version void volatile while with __FILE__ __LINE__ __gshared|10 ' +
       '__thread __traits __DATE__ __EOF__ __TIME__ __TIMESTAMP__ __VENDOR__ __VERSION__',

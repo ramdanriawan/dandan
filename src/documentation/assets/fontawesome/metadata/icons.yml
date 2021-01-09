@@ -7872,7 +7872,7 @@ font-awesome-logo-full:
   label: Font Awesome Full Logo
   ligatures:
     - Font Awesome
-  private: true
+  public: true
   search:
     terms: []
   styles:
@@ -11119,7 +11119,7 @@ key:
     terms:
       - lock
       - password
-      - private
+      - public
       - secret
       - unlock
   styles:
@@ -11842,7 +11842,7 @@ lock:
       - lock
       - open
       - password
-      - private
+      - public
       - protect
       - security
   styles:
@@ -11861,7 +11861,7 @@ lock-open:
       - lock
       - open
       - password
-      - private
+      - public
       - protect
       - security
   styles:
@@ -19979,7 +19979,7 @@ unlock:
       - admin
       - lock
       - password
-      - private
+      - public
       - protect
   styles:
     - solid
@@ -19995,7 +19995,7 @@ unlock-alt:
       - admin
       - lock
       - password
-      - private
+      - public
       - protect
   styles:
     - solid
@@ -20272,7 +20272,7 @@ user-lock:
       - admin
       - lock
       - person
-      - private
+      - public
       - unlock
   styles:
     - solid
@@ -20392,7 +20392,7 @@ user-shield:
     terms:
       - admin
       - person
-      - private
+      - public
       - protect
       - safe
   styles:

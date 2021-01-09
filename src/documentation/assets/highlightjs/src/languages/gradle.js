@@ -16,7 +16,7 @@ export default function(hljs) {
         'exclude source classpath destinationDir includes options sourceCompatibility ' +
         'targetCompatibility group flatDir doLast doFirst flatten todir fromdir ant ' +
         'def abstract break case catch continue default do else extends final finally ' +
-        'for if implements instanceof native new private protected public return static ' +
+        'for if implements instanceof native new public protected public return static ' +
         'switch synchronized throw throws transient try volatile while strictfp package ' +
         'import false null super this true antlrtask checkstyle codenarc copy boolean ' +
         'byte char class double float int interface long short void compile runTime ' +

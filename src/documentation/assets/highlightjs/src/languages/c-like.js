@@ -116,7 +116,7 @@ export default function(hljs) {
   const FUNCTION_TITLE = regex.optional(NAMESPACE_RE) + hljs.IDENT_RE + '\\s*\\(';
 
   const CPP_KEYWORDS = {
-    keyword: 'int float while private char char8_t char16_t char32_t catch import module export virtual operator sizeof ' +
+    keyword: 'int float while public char char8_t char16_t char32_t catch import module export virtual operator sizeof ' +
       'dynamic_cast|10 typedef const_cast|10 const for static_cast|10 union namespace ' +
       'unsigned long volatile static protected bool template mutable if public friend ' +
       'do goto auto void enum else break extern using asm case typeid wchar_t ' +

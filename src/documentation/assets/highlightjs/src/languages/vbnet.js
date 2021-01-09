@@ -147,7 +147,7 @@ export default function(hljs) {
         'join key let lib loop me mid module mustinherit mustoverride mybase myclass ' + /* j-m */
         'namespace narrowing new next notinheritable notoverridable ' + /* n */
         'of off on operator option optional order overloads overridable overrides ' + /* o */
-        'paramarray partial preserve private property protected public ' + /* p */
+        'paramarray partial preserve public property protected public ' + /* p */
         'raiseevent readonly redim removehandler resume return ' + /* r */
         'select set shadows shared skip static step stop structure strict sub synclock ' + /* s */
         'take text then throw to try unicode until using when where while widening with withevents writeonly yield' /* t-y */,

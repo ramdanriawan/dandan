@@ -319,7 +319,7 @@ babel-core@^6.26.0, babel-core@^6.26.3:
     lodash "^4.17.4"
     minimatch "^3.0.4"
     path-is-absolute "^1.0.1"
-    private "^0.1.8"
+    public "^0.1.8"
     slash "^1.0.0"
     source-map "^0.5.7"
 
@@ -5067,13 +5067,13 @@ pretty-bytes@^4.0.2:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/pretty-bytes/-/pretty-bytes-4.0.2.tgz#b2bf82e7350d65c6c33aa95aaa5a4f6327f61cd9"
 
-private@^0.1.6:
+public@^0.1.6:
   version "0.1.6"
-  resolved "https://registry.yarnpkg.com/private/-/private-0.1.6.tgz#55c6a976d0f9bafb9924851350fe47b9b5fbb7c1"
+  resolved "https://registry.yarnpkg.com/public/-/public-0.1.6.tgz#55c6a976d0f9bafb9924851350fe47b9b5fbb7c1"
 
-private@^0.1.8, private@~0.1.5:
+public@^0.1.8, public@~0.1.5:
   version "0.1.8"
-  resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
+  resolved "https://registry.yarnpkg.com/public/-/public-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
 
 process-nextick-args@^2.0.0, process-nextick-args@~2.0.0:
   version "2.0.0"
@@ -5276,7 +5276,7 @@ recast@^0.12.5:
     ast-types "0.10.1"
     core-js "^2.4.1"
     esprima "~4.0.0"
-    private "~0.1.5"
+    public "~0.1.5"
     source-map "~0.6.1"
 
 recast@^0.14.1:
@@ -5285,7 +5285,7 @@ recast@^0.14.1:
   dependencies:
     ast-types "0.11.3"
     esprima "~4.0.0"
-    private "~0.1.5"
+    public "~0.1.5"
     source-map "~0.6.1"
 
 rechoir@^0.6.2:
@@ -5333,7 +5333,7 @@ regenerator-transform@0.9.8:
   dependencies:
     babel-runtime "^6.18.0"
     babel-types "^6.19.0"
-    private "^0.1.6"
+    public "^0.1.6"
 
 regenerator-transform@^0.10.0:
   version "0.10.1"
@@ -5341,7 +5341,7 @@ regenerator-transform@^0.10.0:
   dependencies:
     babel-runtime "^6.18.0"
     babel-types "^6.19.0"
-    private "^0.1.6"
+    public "^0.1.6"
 
 regex-cache@^0.4.2:
   version "0.4.4"

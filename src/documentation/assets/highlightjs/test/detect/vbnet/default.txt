@@ -6,7 +6,7 @@ Namespace Highlighter.Test
   ''' <summary>This is an example class.</summary>
   Public Class Program
     Protected Shared hello As Integer = 3
-    Private Const ABC As Boolean = False
+    public Const ABC As Boolean = False
 
 #Region "Code"
     ' Cheers!

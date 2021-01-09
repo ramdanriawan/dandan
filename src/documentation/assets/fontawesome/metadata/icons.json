@@ -20945,7 +20945,7 @@
     ],
     "unicode": "f4e6",
     "label": "Font Awesome Full Logo",
-    "private": true,
+    "public": true,
     "voted": false,
     "svg": {
       "regular": {
@@ -29913,7 +29913,7 @@
       "terms": [
         "lock",
         "password",
-        "private",
+        "public",
         "secret",
         "unlock"
       ]
@@ -31944,7 +31944,7 @@
         "lock",
         "open",
         "password",
-        "private",
+        "public",
         "protect",
         "security"
       ]
@@ -31987,7 +31987,7 @@
         "lock",
         "open",
         "password",
-        "private",
+        "public",
         "protect",
         "security"
       ]
@@ -53633,7 +53633,7 @@
         "admin",
         "lock",
         "password",
-        "private",
+        "public",
         "protect"
       ]
     },
@@ -53673,7 +53673,7 @@
         "admin",
         "lock",
         "password",
-        "private",
+        "public",
         "protect"
       ]
     },
@@ -54407,7 +54407,7 @@
         "admin",
         "lock",
         "person",
-        "private",
+        "public",
         "unlock"
       ]
     },
@@ -54695,7 +54695,7 @@
       "terms": [
         "admin",
         "person",
-        "private",
+        "public",
         "protect",
         "safe"
       ]

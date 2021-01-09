@@ -7,7 +7,7 @@ Website: https://www.embarcadero.com/products/delphi
 export default function(hljs) {
   const KEYWORDS =
     'exports register file shl array record property for mod while set ally label uses raise not ' +
-    'stored class safecall var interface or private static exit index inherited to else stdcall ' +
+    'stored class safecall var interface or public static exit index inherited to else stdcall ' +
     'override shr asm far resourcestring finalization packed virtual out and protected library do ' +
     'xorwrite goto near function end div overload object unit begin string on inline repeat until ' +
     'destructor write message program with read initialization except default nil if case cdecl in ' +

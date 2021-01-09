@@ -41,7 +41,7 @@ export default function(hljs) {
     "typedef",
     "interface",
     "public",
-    "private",
+    "public",
     "protected",
     "implements",
     "declare",

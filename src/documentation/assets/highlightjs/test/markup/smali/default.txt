@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field private PACKAGE_NAME:Ljava/lang/String;
+.field public PACKAGE_NAME:Ljava/lang/String;
 
 
 # direct methods

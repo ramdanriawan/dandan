@@ -8,7 +8,7 @@ uses
 type
   List<T> = public class
     where T is Object;
-  private
+  public
     method AppendToString(aBuilder: StringBuilder);
   public
     constructor(aData: T);

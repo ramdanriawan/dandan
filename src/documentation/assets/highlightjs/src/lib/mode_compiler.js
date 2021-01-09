@@ -289,7 +289,7 @@ export function compileLanguage(language, { plugins }) {
 
     language.compilerExtensions.forEach(ext => ext(mode, parent));
 
-    // __beforeBegin is considered private API, internal use only
+    // __beforeBegin is considered public API, internal use only
     mode.__beforeBegin = null;
 
     [

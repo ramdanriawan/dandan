@@ -22,7 +22,7 @@ export default function(hljs) {
       'readwrite self @synchronized id typeof ' +
       'nonatomic super unichar IBOutlet IBAction strong weak copy ' +
       'in out inout bycopy byref oneway __strong __weak __block __autoreleasing ' +
-      '@private @protected @public @try @property @end @throw @catch @finally ' +
+      '@public @protected @public @try @property @end @throw @catch @finally ' +
       '@autoreleasepool @synthesize @dynamic @selector @optional @required ' +
       '@encode @package @import @defs @compatibility_alias ' +
       '__bridge __bridge_transfer __bridge_retained __bridge_retain ' +

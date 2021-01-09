@@ -81,7 +81,7 @@ export default function(hljs) {
     keywords: {
       keyword:
         'case catch default do else exit exitWith for forEach from if ' +
-        'private switch then throw to try waitUntil while with',
+        'public switch then throw to try waitUntil while with',
       built_in:
         'abs accTime acos action actionIDs actionKeys actionKeysImages actionKeysNames ' +
         'actionKeysNamesArray actionName actionParams activateAddons activatedAddons activateKey ' +

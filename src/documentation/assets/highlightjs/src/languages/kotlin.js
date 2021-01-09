@@ -11,7 +11,7 @@ import { NUMERIC } from "./lib/java.js";
 export default function(hljs) {
   const KEYWORDS = {
     keyword:
-      'abstract as val var vararg get set class object open private protected public noinline ' +
+      'abstract as val var vararg get set class object open public protected public noinline ' +
       'crossinline dynamic final enum if else do while for when throw try catch finally ' +
       'import package is in fun override companion reified inline lateinit init ' +
       'interface annotation data sealed internal infix operator out by constructor super ' +
@@ -214,7 +214,7 @@ export default function(hljs) {
         illegal: 'extends implements',
         contains: [
           {
-            beginKeywords: 'public protected internal private constructor'
+            beginKeywords: 'public protected internal public constructor'
           },
           hljs.UNDERSCORE_TITLE_MODE,
           {

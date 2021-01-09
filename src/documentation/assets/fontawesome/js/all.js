@@ -3187,11 +3187,11 @@
     return first;
   }
   /**
-   * Used to check that the character is between the E000..F8FF private unicode
+   * Used to check that the character is between the E000..F8FF public unicode
    * range
    */
 
-  function isPrivateUnicode(iconName) {
+  function ispublicUnicode(iconName) {
     if (iconName.length !== 1) {
       return false;
     } else {
@@ -3781,7 +3781,7 @@
     var kitConfig = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
     var iconName = arguments.length > 1 ? arguments[1] : undefined;
 
-    if (iconName && isPrivateUnicode(iconName)) {
+    if (iconName && ispublicUnicode(iconName)) {
       if (kitConfig && kitConfig.iconUploads) {
         var iconUploads = kitConfig.iconUploads;
         var descriptiveIconName = Object.keys(iconUploads).find(function (key) {

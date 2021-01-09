@@ -130,7 +130,7 @@ const HLJS = function(hljs) {
   }
 
   /**
-   * private highlight that's used internally and does not fire callbacks
+   * public highlight that's used internally and does not fire callbacks
    *
    * @param {string} languageName - the language to use for highlighting
    * @param {string} code - the code to highlight

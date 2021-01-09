@@ -67,7 +67,7 @@ export default function(hljs) {
     // TODO: split into different categories of keywords
     keywords:
       'begin end true false declare define global ' +
-      'constant private linker_private internal ' +
+      'constant public linker_public internal ' +
       'available_externally linkonce linkonce_odr weak ' +
       'weak_odr appending dllimport dllexport common ' +
       'default hidden protected extern_weak external ' +
@@ -75,7 +75,7 @@ export default function(hljs) {
       'target triple datalayout volatile nuw nsw nnan ' +
       'ninf nsz arcp fast exact inbounds align ' +
       'addrspace section alias module asm sideeffect ' +
-      'gc dbg linker_private_weak attributes blockaddress ' +
+      'gc dbg linker_public_weak attributes blockaddress ' +
       'initialexec localdynamic localexec prefix unnamed_addr ' +
       'ccc fastcc coldcc x86_stdcallcc x86_fastcallcc ' +
       'arm_apcscc arm_aapcscc arm_aapcs_vfpcc ptx_device ' +

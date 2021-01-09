@@ -108,7 +108,7 @@ export default function(hljs) {
     'outer',
     'pessimisticlock',
     'print',
-    'private',
+    'public',
     'protected',
     'public',
     'readonly',

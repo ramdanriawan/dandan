@@ -781,7 +781,7 @@ export default function(hljs) {
       'lb_sort_ascending lb_sort_descending lb_disp_none lb_disp_numeric ' +
       'lb_disp_time_sec lb_disp_time_ms ugc_result_success ' +
       'ugc_filetype_community ugc_filetype_microtrans ugc_visibility_public ' +
-      'ugc_visibility_friends_only ugc_visibility_private ' +
+      'ugc_visibility_friends_only ugc_visibility_public ' +
       'ugc_query_RankedByVote ugc_query_RankedByPublicationDate ' +
       'ugc_query_AcceptedForGameRankedByAcceptanceDate ' +
       'ugc_query_RankedByTrend ' +

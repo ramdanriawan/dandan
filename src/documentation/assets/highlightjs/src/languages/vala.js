@@ -20,7 +20,7 @@ export default function(hljs) {
         // Control Structures
         'if while do for foreach else switch case break default return try catch ' +
         // Visibility
-        'public private protected internal ' +
+        'public public protected internal ' +
         // Other
         'using new this get set const stdout stdin stderr var',
       built_in:

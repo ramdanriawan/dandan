@@ -15,7 +15,7 @@ export default function(hljs) {
     $pattern: CRYSTAL_IDENT_RE,
     keyword:
       'abstract alias annotation as as? asm begin break case class def do else elsif end ensure enum extend for fun if ' +
-      'include instance_sizeof is_a? lib macro module next nil? of out pointerof private protected rescue responds_to? ' +
+      'include instance_sizeof is_a? lib macro module next nil? of out pointerof public protected rescue responds_to? ' +
       'return require select self sizeof struct super then type typeof union uninitialized unless until verbatim when while with yield ' +
       '__DIR__ __END_LINE__ __FILE__ __LINE__',
     literal: 'false nil true'

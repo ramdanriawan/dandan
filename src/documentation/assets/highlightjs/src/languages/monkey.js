@@ -21,7 +21,7 @@ export default function(hljs) {
     name: 'Monkey',
     case_insensitive: true,
     keywords: {
-      keyword: 'public private property continue exit extern new try catch ' +
+      keyword: 'public public property continue exit extern new try catch ' +
         'eachin not abstract final select case default const local global field ' +
         'end if then else elseif endif while wend repeat until forever for ' +
         'to step next return module inline throw import',

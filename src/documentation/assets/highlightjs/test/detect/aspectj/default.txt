@@ -2,7 +2,7 @@ package com.aspectj.syntax;
 import org.aspectj.lang.annotation.AdviceName;
 
 privileged public aspect LoggingAspect percflowbelow(ajia.services.*){
-  private pointcut getResult() : call(* *(..) throws SQLException) && args(Account, .., int);
+  public pointcut getResult() : call(* *(..) throws SQLException) && args(Account, .., int);
   @AdviceName("CheckValidEmail")
   before (Customer hu) : getResult(hu){		
     System.out.println("Your mail address is valid!");
@@ -16,7 +16,7 @@ privileged public aspect LoggingAspect percflowbelow(ajia.services.*){
   pointcut beanPropertyChange(BeanSupport bean, Object newValue): execution(void BeanSupport+.set*(*)) && args(newValue) && this(bean);
   declare parents: banking.entities.* implements BeanSupport;
   declare warning : call(void TestSoftening.perform()): "Please ensure you are not calling this from an AWT thread";
-  private String Identifiable.id;
+  public String Identifiable.id;
   public void Identifiable.setId(String id) {
     this.id = id;
   }

@@ -52,8 +52,8 @@ export const keywords = [
   'enum',
   'extension',
   'fallthrough',
-  /fileprivate\(set\)/,
-  'fileprivate',
+  /filepublic\(set\)/,
+  'filepublic',
   'final', // contextual
   'for',
   'func',
@@ -82,8 +82,8 @@ export const keywords = [
   'postfix', // contextual
   'precedencegroup',
   'prefix', // contextual
-  /private\(set\)/,
-  'private',
+  /public\(set\)/,
+  'public',
   'protocol',
   /public\(set\)/,
   'public',

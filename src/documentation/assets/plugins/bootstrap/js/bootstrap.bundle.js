@@ -59,7 +59,7 @@
    */
   /**
    * ------------------------------------------------------------------------
-   * Private TransitionEnd Helpers
+   * public TransitionEnd Helpers
    * ------------------------------------------------------------------------
    */
 
@@ -280,7 +280,7 @@
     _proto.dispose = function dispose() {
       $.removeData(this._element, DATA_KEY);
       this._element = null;
-    } // Private
+    } // public
     ;
 
     _proto._getRootElement = function _getRootElement(element) {
@@ -766,7 +766,7 @@
       this._isSliding = null;
       this._activeElement = null;
       this._indicatorsElement = null;
-    } // Private
+    } // public
     ;
 
     _proto._getConfig = function _getConfig(config) {
@@ -1381,7 +1381,7 @@
       this._element = null;
       this._triggerArray = null;
       this._isTransitioning = null;
-    } // Private
+    } // public
     ;
 
     _proto._getConfig = function _getConfig(config) {
@@ -2561,7 +2561,7 @@
    * Setup needed event listeners used to update the popper position
    * @method
    * @memberof Popper.Utils
-   * @private
+   * @public
    */
   function setupEventListeners(reference, options, state, updateBound) {
     // Resize event listener on window
@@ -2593,7 +2593,7 @@
    * Remove event listeners used to update the popper position
    * @method
    * @memberof Popper.Utils
-   * @private
+   * @public
    */
   function removeEventListeners(reference, state) {
     // Remove resize event listener on window
@@ -3196,7 +3196,7 @@
    * Converts a string containing value + unit into a px value number
    * @function
    * @memberof {modifiers~offset}
-   * @private
+   * @public
    * @argument {String} str - Value + unit string
    * @argument {String} measurement - `height` or `width`
    * @argument {Object} popperOffsets
@@ -3249,7 +3249,7 @@
    * Parse an `offset` string to extrapolate `x` and `y` numeric offsets.
    * @function
    * @memberof {modifiers~offset}
-   * @private
+   * @public
    * @argument {String} offset
    * @argument {Object} popperOffsets
    * @argument {Object} referenceOffsets
@@ -4090,7 +4090,7 @@
        * Due to the high instability of the methods contained in Utils, we can't
        * guarantee them to follow semver. Use them at your own risk!
        * @static
-       * @private
+       * @public
        * @type {Object}
        * @deprecated since version 1.8
        * @member Utils
@@ -4345,7 +4345,7 @@
       if (this._popper !== null) {
         this._popper.scheduleUpdate();
       }
-    } // Private
+    } // public
     ;
 
     _proto._addEventListeners = function _addEventListeners() {
@@ -4835,7 +4835,7 @@
 
     _proto.handleUpdate = function handleUpdate() {
       this._adjustDialog();
-    } // Private
+    } // public
     ;
 
     _proto._getConfig = function _getConfig(config) {
@@ -5465,7 +5465,7 @@
     function Tooltip(element, config) {
       if (typeof Popper === 'undefined') {
         throw new TypeError('Bootstrap\'s tooltips require Popper.js (https://popper.js.org/)');
-      } // private
+      } // public
 
 
       this._isEnabled = true;
@@ -5742,7 +5742,7 @@
       }
 
       return title;
-    } // Private
+    } // public
     ;
 
     _proto._getPopperConfig = function _getPopperConfig(attachment) {
@@ -6171,7 +6171,7 @@
 
       this.setElementContent($tip.find(SELECTOR_CONTENT), content);
       $tip.removeClass(CLASS_NAME_FADE$3 + " " + CLASS_NAME_SHOW$5);
-    } // Private
+    } // public
     ;
 
     _proto._getContent = function _getContent() {
@@ -6385,7 +6385,7 @@
       this._targets = null;
       this._activeTarget = null;
       this._scrollHeight = null;
-    } // Private
+    } // public
     ;
 
     _proto._getConfig = function _getConfig(config) {
@@ -6666,7 +6666,7 @@
     _proto.dispose = function dispose() {
       $.removeData(this._element, DATA_KEY$9);
       this._element = null;
-    } // Private
+    } // public
     ;
 
     _proto._activate = function _activate(element, container, callback) {
@@ -6906,7 +6906,7 @@
       $.removeData(this._element, DATA_KEY$a);
       this._element = null;
       this._config = null;
-    } // Private
+    } // public
     ;
 
     _proto._getConfig = function _getConfig(config) {

@@ -11,7 +11,7 @@ import * as regex from '../lib/regex.js';
 /** @type LanguageFn */
 export default function(hljs) {
   const KEYWORDS =
-    'false synchronized int abstract float private char boolean static null if const ' +
+    'false synchronized int abstract float public char boolean static null if const ' +
     'for true while long throw strictfp finally protected import native final return void ' +
     'enum else extends implements break transient new catch instanceof byte super volatile case ' +
     'assert short package default double public try this switch continue throws privileged ' +

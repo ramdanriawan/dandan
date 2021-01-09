@@ -37,7 +37,7 @@ export default function(hljs) {
 
   const F_KEYWORDS = {
     literal: '.False. .True.',
-    keyword: 'kind do while private call intrinsic where elsewhere ' +
+    keyword: 'kind do while public call intrinsic where elsewhere ' +
       'type endtype endmodule endselect endinterface end enddo endif if forall endforall only contains default return stop then ' +
       'public subroutine|10 function program .and. .or. .not. .le. .eq. .ge. .gt. .lt. ' +
       'goto save else use module select case ' +

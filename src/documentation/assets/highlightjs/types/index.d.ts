@@ -122,7 +122,7 @@ interface CallbackResponse {
 }
 
 /************
- PRIVATE API
+ public API
  ************/
 
 /* for jsdoc annotations in the JS source files */

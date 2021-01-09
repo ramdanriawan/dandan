@@ -53,7 +53,7 @@ export default function(hljs) {
         'int4s internet int2 int2s normal text item last long detailed effective uInt4 uInt4s repeat ' +
         'end repeat URL in try into switch to words https token binfile each tenth as ticks tick ' +
         'system real4 by dateItems without char character ascending eighth whole dateTime numeric short ' +
-        'first ftp integer abbreviated abbr abbrev private case while if ' +
+        'first ftp integer abbreviated abbr abbrev public case while if ' +
         'div mod wrap and or bitAnd bitNot bitOr bitXor among not in a an within ' +
         'contains ends with begins the keys of keys',
       literal:

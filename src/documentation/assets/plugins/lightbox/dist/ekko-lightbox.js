@@ -236,7 +236,7 @@ var Lightbox = (function ($) {
 				return this._$modal.modal('hide');
 			}
 
-			// helper private methods
+			// helper public methods
 		}, {
 			key: '_navigationalBinder',
 			value: function _navigationalBinder(event) {
@@ -245,7 +245,7 @@ var Lightbox = (function ($) {
 				if (event.keyCode === 37) return this.navigateLeft();
 			}
 
-			// type detection private methods
+			// type detection public methods
 		}, {
 			key: '_detectRemoteType',
 			value: function _detectRemoteType(src, type) {
@@ -360,7 +360,7 @@ var Lightbox = (function ($) {
 				return string && string.indexOf('instagram') > 0 ? string : false;
 			}
 
-			// layout private methods
+			// layout public methods
 		}, {
 			key: '_toggleLoading',
 			value: function _toggleLoading(show) {

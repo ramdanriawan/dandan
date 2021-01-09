@@ -25,7 +25,7 @@ export default function(hljs) {
     keywords: {
       keyword: 'as break case catch class const continue default delete do dynamic each ' +
         'else extends final finally for function get if implements import in include ' +
-        'instanceof interface internal is namespace native new override package private ' +
+        'instanceof interface internal is namespace native new override package public ' +
         'protected public return set static super switch this throw try typeof use var void ' +
         'while with',
       literal: 'true false null undefined'

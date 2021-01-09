@@ -47,10 +47,10 @@
 
     <span class="hljs-keyword">public</span> <span class="hljs-keyword">var</span> x(<span class="hljs-keyword">get</span>, <span class="hljs-keyword">set</span>):<span class="hljs-type">T</span>;
 
-    <span class="hljs-keyword">private</span> <span class="hljs-keyword">inline</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">get_x</span></span>():<span class="hljs-type">T</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">inline</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">get_x</span></span>():<span class="hljs-type">T</span>
         <span class="hljs-keyword">return</span> v;
 
-    <span class="hljs-keyword">private</span> <span class="hljs-keyword">inline</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">set_x</span></span>(x:<span class="hljs-type">T</span>):<span class="hljs-type">T</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">inline</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">set_x</span></span>(x:<span class="hljs-type">T</span>):<span class="hljs-type">T</span>
         <span class="hljs-keyword">return</span> v = x;
 }
 
@@ -109,7 +109,7 @@
     <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">nothing</span></span>():<span class="hljs-type">Void</span>
         <span class="hljs-built_in">trace</span>(<span class="hljs-string">&quot;nothing!&quot;</span>);
 
-    <span class="hljs-keyword">private</span> <span class="hljs-keyword">inline</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">func</span></span>(a:<span class="hljs-type">Int</span>, b:<span class="hljs-type">Float</span>, ?c:<span class="hljs-type">String</span>, d:<span class="hljs-type">Bool</span>=<span class="hljs-literal">false</span>):<span class="hljs-type">Dynamic </span>{
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">inline</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">func</span></span>(a:<span class="hljs-type">Int</span>, b:<span class="hljs-type">Float</span>, ?c:<span class="hljs-type">String</span>, d:<span class="hljs-type">Bool</span>=<span class="hljs-literal">false</span>):<span class="hljs-type">Dynamic </span>{
         <span class="hljs-keyword">return</span> {
             x: <span class="hljs-type">0</span>,
             y: <span class="hljs-type">true</span>,

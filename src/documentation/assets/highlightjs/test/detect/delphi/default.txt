@@ -1,5 +1,5 @@
 TList = Class(TObject)
-Private
+public
   Some: String;
 Public
   Procedure Inside; // Suxx

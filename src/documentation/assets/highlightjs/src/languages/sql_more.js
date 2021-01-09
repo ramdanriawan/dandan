@@ -108,7 +108,7 @@ export default function(hljs) {
             'performance period period_add period_diff permanent physical pi pipe pipelined pivot pluggable plugin ' +
             'policy position post_transaction pow power pragma prebuilt precedes preceding precision prediction ' +
             'prediction_cost prediction_details prediction_probability prediction_set prepare present preserve ' +
-            'prior priority private private_sga privileges procedural procedure procedure_analyze processlist ' +
+            'prior priority public public_sga privileges procedural procedure procedure_analyze processlist ' +
             'profiles project prompt protection public publishingservername purge quarter query quick quiesce quota ' +
             'quotename radians raise rand range rank raw read reads readsize rebuild record records ' +
             'recover recovery recursive recycle redo reduced ref reference referenced references referencing refresh ' +

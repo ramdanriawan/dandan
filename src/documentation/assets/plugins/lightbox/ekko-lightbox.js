@@ -239,7 +239,7 @@ const Lightbox = (($) => {
 			return this._$modal.modal('hide');
 		}
 
-		// helper private methods
+		// helper public methods
 		_navigationalBinder(event) {
 			event = event || window.event;
 			if (event.keyCode === 39)
@@ -248,7 +248,7 @@ const Lightbox = (($) => {
 				return this.navigateLeft()
 		}
 
-		// type detection private methods
+		// type detection public methods
 		_detectRemoteType(src, type) {
 
 			type = type || false;
@@ -360,7 +360,7 @@ const Lightbox = (($) => {
 			return string && string.indexOf('instagram') > 0 ? string : false
 		}
 
-		// layout private methods
+		// layout public methods
 		_toggleLoading(show) {
 			show = show || false
 			if(show) {

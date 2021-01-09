@@ -18,7 +18,7 @@ export default function(hljs) {
         'and as assert asr begin class constraint do done downto else end ' +
         'exception external for fun function functor if in include ' +
         'inherit! inherit initializer land lazy let lor lsl lsr lxor match method!|10 method ' +
-        'mod module mutable new object of open! open or private rec sig struct ' +
+        'mod module mutable new object of open! open or public rec sig struct ' +
         'then to try type val! val virtual when while with ' +
         /* camlp4 */
         'parser value',

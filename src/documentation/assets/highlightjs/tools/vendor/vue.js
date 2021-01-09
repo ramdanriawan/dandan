@@ -5171,7 +5171,7 @@
       Sub.use = Super.use;
 
       // create asset registers, so extended classes
-      // can have their private assets too.
+      // can have their public assets too.
       ASSET_TYPES.forEach(function (type) {
         Sub[type] = Super[type];
       });

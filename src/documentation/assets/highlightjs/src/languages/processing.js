@@ -14,10 +14,10 @@ export default function(hljs) {
         'double float int long String Array FloatDict FloatList IntDict IntList JSONArray JSONObject ' +
         'Object StringDict StringList Table TableRow XML ' +
         // Java keywords
-        'false synchronized int abstract float private char boolean static null if const ' +
+        'false synchronized int abstract float public char boolean static null if const ' +
         'for true while long throw strictfp finally protected import native final return void ' +
         'enum else break transient new catch instanceof byte super volatile case assert short ' +
-        'package default double public try this switch continue throws protected public private',
+        'package default double public try this switch continue throws protected public public',
       literal: 'P2D P3D HALF_PI PI QUARTER_PI TAU TWO_PI',
       title: 'setup draw',
       built_in: 'displayHeight displayWidth mouseY mouseX mousePressed pmouseX pmouseY key ' +

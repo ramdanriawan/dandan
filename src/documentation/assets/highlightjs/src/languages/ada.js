@@ -84,7 +84,7 @@ export default function(hljs) {
                 'accept entry select access exception of separate aliased exit or some ' +
                 'all others subtype and for out synchronized array function overriding ' +
                 'at tagged generic package task begin goto pragma terminate ' +
-                'body private then if procedure type case in protected constant interface ' +
+                'body public then if procedure type case in protected constant interface ' +
                 'is raise use declare range delay limited record when delta loop rem while ' +
                 'digits renames with do mod requeue xor',
       literal:
@@ -122,7 +122,7 @@ export default function(hljs) {
       {
         // package definition, maybe inside generic
         className: 'title',
-        begin: '(\\bwith\\s+)?(\\bprivate\\s+)?\\bpackage\\s+(\\bbody\\s+)?',
+        begin: '(\\bwith\\s+)?(\\bpublic\\s+)?\\bpackage\\s+(\\bbody\\s+)?',
         end: '(is|$)',
         keywords: 'package body',
         excludeBegin: true,

@@ -70,7 +70,7 @@ export default function(hljs) {
 
   const KEYWORDS = {
     literal: '.False. .True.',
-    keyword: 'kind do concurrent local shared while private call intrinsic where elsewhere ' +
+    keyword: 'kind do concurrent local shared while public call intrinsic where elsewhere ' +
       'type endtype endmodule endselect endinterface end enddo endif if forall endforall only contains default return stop then block endblock endassociate ' +
       'public subroutine|10 function program .and. .or. .not. .le. .eq. .ge. .gt. .lt. ' +
       'goto save else use module select case ' +

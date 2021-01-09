@@ -92,7 +92,7 @@ class TokenTree {
 }
 
 /**
-  Currently this is all private API, but this is the minimal API necessary
+  Currently this is all public API, but this is the minimal API necessary
   that an Emitter must implement to fully support the parser.
 
   Minimal interface:

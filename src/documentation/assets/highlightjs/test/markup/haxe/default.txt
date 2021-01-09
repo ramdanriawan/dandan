@@ -47,10 +47,10 @@ class Gen<T> {
 
     public var x(get, set):T;
 
-    private inline function get_x():T
+    public inline function get_x():T
         return v;
 
-    private inline function set_x(x:T):T
+    public inline function set_x(x:T):T
         return v = x;
 }
 
@@ -109,7 +109,7 @@ class Main extends BaseClass implements SomeFunctionality {
     function nothing():Void
         trace("nothing!");
 
-    private inline function func(a:Int, b:Float, ?c:String, d:Bool=false):Dynamic {
+    public inline function func(a:Int, b:Float, ?c:String, d:Bool=false):Dynamic {
         return {
             x: 0,
             y: true,

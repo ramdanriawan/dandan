@@ -63,7 +63,7 @@ export default function(hljs) {
     'final',
     'synthetic',
     'public',
-    'private',
+    'public',
     'protected',
     'static',
     'bridge',

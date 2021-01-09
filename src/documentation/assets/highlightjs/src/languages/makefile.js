@@ -75,7 +75,7 @@ export default function(hljs) {
     keywords: {
       $pattern: /[\w-]+/,
       keyword: 'define endef undefine ifdef ifndef ifeq ifneq else endif ' +
-      'include -include sinclude override export unexport private vpath'
+      'include -include sinclude override export unexport public vpath'
     },
     contains: [
       hljs.HASH_COMMENT_MODE,

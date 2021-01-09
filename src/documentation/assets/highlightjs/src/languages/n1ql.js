@@ -25,7 +25,7 @@ export default function(hljs) {
             'function grant group gsi having if ignore ilike in include increment index infer inline inner ' +
             'insert intersect into is join key keys keyspace known last left let letting like limit lsm map ' +
             'mapping matched materialized merge minus namespace nest not number object offset on ' +
-            'option or order outer over parse partition password path pool prepare primary private privilege ' +
+            'option or order outer over parse partition password path pool prepare primary public privilege ' +
             'procedure public raw realm reduce rename return returning revoke right role rollback satisfies ' +
             'schema select self semi set show some start statistics string system then to transaction trigger ' +
             'truncate under union unique unknown unnest unset update upsert use user using validate value ' +

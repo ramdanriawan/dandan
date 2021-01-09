@@ -19,9 +19,9 @@
 ; another one
 (def alternative-var "132")
 ; defonce
-(defonce ^:private another-var #"foo")
+(defonce ^:public another-var #"foo")
 
-; private function
+; public function
 (defn- add [x y] (+ x y))
 
 ; protocols
