@@ -2,7 +2,7 @@
 
 namespace RamdanRiawan;
 
-class DB extends Table
+class Manipulation extends Table
 {
     public function exists()
     {

@@ -2,8 +2,13 @@
 
 namespace RamdanRiawan;
 
-class DB extends Table
+class Manipulation extends Table
 {
+    public function count()
+    {
+        
+    }
+
     public function exists()
     {
         
@@ -45,6 +50,16 @@ class DB extends Table
     }
 
     public function random()
+    {
+        
+    }
+
+    public function gt()
+    {
+        
+    }
+
+    public function lt()
     {
         
     }
