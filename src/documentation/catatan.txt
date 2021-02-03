@@ -1,0 +1,145 @@
+
+transaction
+DB::transaction(function () {
+    DB::table('users')->update(['votes' => 1]);
+
+    DB::table('posts')->delete();
+});
+
+// list data dari sebuah column
+$titles = DB::table('roles')->pluck('title');
+
+// count, max, min, avg, sum
+$users = DB::table('users')->count();
+$price = DB::table('orders')->max('price');
+$price = DB::table('orders')->min('price');
+$price = DB::table('orders')->avg('price');
+$price = DB::table('orders')->sum('price');
+
+// select, select distinct
+$users = DB::table('users')->select('name', 'email as user_email')->get();
+$users = DB::table('users')->distinct()->get();
+
+// join
+$users = DB::table('users')
+            ->join('contacts', 'users.id', '=', 'contacts.user_id')
+            ->join('orders', 'users.id', '=', 'orders.user_id')
+            ->select('users.*', 'contacts.phone', 'orders.price')
+            ->get();
+
+DB::table('users')->join('contacts', function ($join) {
+            $join->on('users.id', '=', 'contacts.user_id')
+            ->where('contacts.user_id', '>', 5);
+        })->get();
+
+// where 
+$users = DB::table('users')->where('votes', 100)->get();
+$users = DB::table('users')->where('votes', '>=', 100)->get();
+$users = DB::table('users')->where('votes', '<>', 100)->get();
+$users = DB::table('users')->where('name', 'like', 'T%')->get();
+
+// multiple where condition
+$users = DB::table('users')->where([
+    ['status', '=', '1'],
+    ['subscribed', '<>', '1'],
+])->get();
+
+// or Where
+$users = DB::table('users')->where('votes', '>', 100)->orWhere('name', 'John')->get();
+
+// where between
+$users = DB::table('users')->whereBetween('votes', [1, 100])->get();
+
+// whereNotBetween
+$users = DB::table('users')->whereNotBetween('votes', [1, 100])->get();
+
+// whereIn
+$users = DB::table('users')->whereIn('id', [1, 2, 3])->get();
+
+// whereNotIn
+$users = DB::table('users')->whereNotIn('id', [1, 2, 3])->get();
+
+// where Null
+$users = DB::table('users')->whereNull('updated_at')->get();
+
+// whereNotNull
+$users = DB::table('users')
+                    ->whereNotNull('updated_at')
+                    ->get();
+
+// orderBy
+$users = DB::table('users')
+                ->orderBy('name', 'desc')
+                ->get();
+
+// satu randomData
+$randomUser = DB::table('users')
+                ->inRandomOrder()
+                ->first();
+
+// insert
+DB::table('users')->insert(
+    ['email' => 'john@example.com', 'votes' => 0]
+);
+
+// update
+DB::table('users')
+            ->where('id', 1)
+            ->update(['votes' => 1]);
+
+// increment / decrement
+DB::table('users')->increment('votes');
+DB::table('users')->increment('votes', 5);
+DB::table('users')->decrement('votes');
+DB::table('users')->decrement('votes', 5);
+
+// delete
+DB::table('users')->delete();
+DB::table('users')->where('votes', '>', 100)->delete();
+
+// truncate
+DB::table('users')->truncate();
+
+// Not Found / Error ketika data tidak ada
+$model = App\Flight::findOrFail(1);
+$model = App\Flight::where('legs', '>', 100)->firstOrFail();
+
+// kalo ada update, kalo g ada buat baru
+$flight = App\Flight::firstOrCreate(['name' => 'Flight 10']);
+$flight = App\Flight::firstOrNew(['name' => 'Flight 10']);
+
+// relasi satu ke banyak
+$user->posts()->where('active', 1)->get();
+
+// relasi banyak ke satu
+return $this->belongsTo('App\User');
+return $this->belongsTo('App\User', 'foreign_key');
+
+// pull, push, pop, only, reverse
+
+// toArray, toJson
+
+// helpers
+auth()
+back()
+dd()
+d()
+old()
+redirect()
+e()
+str_limit()
+bcrypt()
+env()
+request()
+response()
+return response('Hello World', 200, $headers);
+mail()
+validation()
+{{ blade }}
+Hello, {!! $name !!}.
+backup()
+import()
+zip()
+extract()
+download()
+screenshoot()
