@@ -80,7 +80,7 @@
                     <li class="nav-item"><a class="nav-link scrollto" href="#item-1-6">1.6 Mengambil semua data berdasarkan column tertentu  yang memiliki data tertentu (where in)</a></li>
                     
                     <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-2"><span
-                                class="theme-icon-holder mr-2"><i class="fas fa-arrow-down"></i></span>Mengola Data</a>
+                                class="theme-icon-holder mr-2"><i class="fas fa-arrow-down"></i></span>Mengambil data</a>
                     </li>
                     <li class="nav-item"><a class="nav-link scrollto" href="#item-2-1">2.1 Create</a></li>
                     <li class="nav-item"><a class="nav-link scrollto" href="#item-2-2">2.2 Read</a></li>
@@ -447,7 +447,7 @@ Array
                 </article>
                 <article class="docs-article" id="section-2">
                     <header class="docs-header">
-                        <h1 class="docs-heading">Pengolahan Data</h1>
+                        <h1 class="docs-heading">Mengambil Data</h1>
                         <section class="docs-intro">
                             <p>Disini akan dijelaskan cara menggunakan fungsi dasar seperti create, read, update, delete data gaes</p>
                         </section>
@@ -455,38 +455,41 @@ Array
                     </header>
 
                     <section class="docs-section" id="item-2-1">
-						<h2 class="section-heading">2.1 Membuat data baru</h2>
+						<h2 class="section-heading">2.1 Insert data baru</h2>
 <div class="docs-code-block">
 <pre class="shadow-lg rounded"><code class="php hljs">&lt;?php
 
-// insert into data_admin (id_admin, nama_admin, email, username, password)
-$data_admin([
-    'id_admin' => 'ADM001',
-    'nama_admin' => 'Admin',
-    'email' => 'admin@gmail.com',
-    'username' => 'admin',
-    'password' => 'mxnsjnxjshhg'
-]);
+// select * from data_admin where username where = 'adm' limit 5
+$data_admin('username', 'adm', 1, 5);
 </code></pre>
 </div>
-</section>
+	
+	<strong>Result:</strong>
+<pre>
+<code>
+Array
+(
+	[0] => stdClass Object
+		(
+			[id_admin] => 1
+			[nama_admin] => admin
+			[username] => admin
+			[password] => 21232f297a57a5a743894a0e4a801fc3
+			[level] => admin
+		)
 
-<section class="docs-section" id="item-2-1">
-    <h2 class="section-heading">2.1 Update data baru</h2>
-<div class="docs-code-block">
-<pre class="shadow-lg rounded"><code class="php hljs">&lt;?php
-
-// update data_admin set id_admin = 'ADM002', nama_admin, email, username, password)
-$data_admin([
-'id_admin' => 'ADM001',
-'nama_admin' => 'Admin',
-'email' => 'admin@gmail.com',
-'username' => 'admin',
-'password' => 'mxnsjnxjshhg'
-]);
-</code></pre>
-</div>
-</section>
+	[1] => stdClass Object
+		(
+			[id_admin] => ADM20210104051006553
+			[nama_admin] => putra
+			[username] => putra
+			[password] => 5e0c5a0bf82decdd43b2150b622c66c5
+			[level] => admin
+		)
+)
+</code>
+	</pre>
+                    </section>
                     
                     <!--//section-->
                     <section class="docs-section" id="item-2-2">

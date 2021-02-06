@@ -455,38 +455,43 @@ Array
                     </header>
 
                     <section class="docs-section" id="item-2-1">
-						<h2 class="section-heading">2.1 Membuat data baru</h2>
+						<h2 class="section-heading">2.1 Insert data baru</h2>
 <div class="docs-code-block">
 <pre class="shadow-lg rounded"><code class="php hljs">&lt;?php
 
-// insert into data_admin (id_admin, nama_admin, email, username, password)
+// insert into data_admin (id_admin, nama, email, username, password)
 $data_admin([
-    'id_admin' => 'ADM001',
-    'nama_admin' => 'Admin',
-    'email' => 'admin@gmail.com',
-    'username' => 'admin',
-    'password' => 'mxnsjnxjshhg'
+    
 ]);
 </code></pre>
 </div>
-</section>
+	
+	<strong>Result:</strong>
+<pre>
+<code>
+Array
+(
+	[0] => stdClass Object
+		(
+			[id_admin] => 1
+			[nama_admin] => admin
+			[username] => admin
+			[password] => 21232f297a57a5a743894a0e4a801fc3
+			[level] => admin
+		)
 
-<section class="docs-section" id="item-2-1">
-    <h2 class="section-heading">2.1 Update data baru</h2>
-<div class="docs-code-block">
-<pre class="shadow-lg rounded"><code class="php hljs">&lt;?php
-
-// update data_admin set id_admin = 'ADM002', nama_admin, email, username, password)
-$data_admin([
-'id_admin' => 'ADM001',
-'nama_admin' => 'Admin',
-'email' => 'admin@gmail.com',
-'username' => 'admin',
-'password' => 'mxnsjnxjshhg'
-]);
-</code></pre>
-</div>
-</section>
+	[1] => stdClass Object
+		(
+			[id_admin] => ADM20210104051006553
+			[nama_admin] => putra
+			[username] => putra
+			[password] => 5e0c5a0bf82decdd43b2150b622c66c5
+			[level] => admin
+		)
+)
+</code>
+	</pre>
+                    </section>
                     
                     <!--//section-->
                     <section class="docs-section" id="item-2-2">
