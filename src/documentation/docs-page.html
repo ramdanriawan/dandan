@@ -166,7 +166,7 @@ include "DAN/DAN.php";
 <pre class="shadow-lg rounded"><code class="php hljs">&lt;?php
 
 // select * from data_admin
-$data_admin(); 
+$admin(); 
 $admin();
 </code></pre>
 </div>
@@ -205,7 +205,7 @@ Array
 <pre class="shadow-lg rounded"><code class="php hljs">&lt;?php
 
 // select * from data_admin where id_admin = 1
-$data_admin('1');
+$admin('1');
 </code></pre>
 </div>
 
@@ -230,7 +230,7 @@ stdClass Object
 <pre class="shadow-lg rounded"><code class="php hljs">&lt;?php
 
 // select * from data_admin where username = 'admin' limit 1
-$data_admin('username', 'admin');
+$admin('username', 'admin');
 </code></pre>
 </div>
 
@@ -255,7 +255,7 @@ stdClass Object
 <pre class="shadow-lg rounded"><code class="php hljs">&lt;?php
 
 // select * from data admin where level = 'admin'
-$data_admin('level', 'admin', 1);
+$admin('level', 'admin', 1);
 </code></pre>
 </div>
 	
@@ -293,7 +293,7 @@ Array
 <pre class="shadow-lg rounded"><code class="php hljs">&lt;?php
 
 // select * from data_admin where username like "%adm%"
-$data_admin('username', 'adm', 0);
+$admin('username', 'adm', 0);
 </code></pre>
 </div>
 	
@@ -329,7 +329,7 @@ Array
                             <div class="docs-code-block">
 <pre class="shadow-lg rounded"><code class="php hljs">&lt;?php
 // select * from data_admin where username = 'adm' limit 5
-$data_admin('username', 'adm', 1, 5);
+$admin('username', 'adm', 1, 5);
 </code></pre>
 </div>
 	
@@ -370,7 +370,7 @@ Array
 <pre class="shadow-lg rounded"><code class="php hljs">&lt;?php
 
 // select * from data_admin where username like "%adm%" limit 5
-$data_admin('username', 'adm', 0, 5);
+$admin('username', 'adm', 0, 5);
 </code></pre>
 </div>
 	
@@ -407,7 +407,7 @@ Array
 <pre class="shadow-lg rounded"><code class="php hljs">&lt;?php
 
 // select * from data_admin where username where = 'adm' limit 5
-$data_admin('username', 'adm', 1, 5);
+$admin('username', 'adm', 1, 5);
 </code></pre>
 </div>
 	
@@ -460,7 +460,7 @@ Array
 <pre class="shadow-lg rounded"><code class="php hljs">&lt;?php
 
 // insert into data_admin (id_admin, nama_admin, email, username, password)
-$data_admin([
+$admin([
     'id_admin' => 'ADM001',
     'nama_admin' => 'Admin',
     'email' => 'admin@gmail.com',
@@ -477,7 +477,7 @@ $data_admin([
 <pre class="shadow-lg rounded"><code class="php hljs">&lt;?php
 
 // update data_admin set id_admin = 'ADM002', nama_admin, email, username, password)
-$data_admin([
+$admin([
 'id_admin' => 'ADM001',
 'nama_admin' => 'Admin',
 'email' => 'admin@gmail.com',
